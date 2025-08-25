@@ -1,0 +1,148 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #1A1A1A;
+}
+
+header h1 {
+    color: #B32100;
+}
+
+header p {
+    color: #EBEFAA;
+}
+
+header {
+    text-align: center;
+    background: transparent;
+    padding: 20px 0;
+    border-bottom: 2px solid #B32100;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.banner {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.banner img:hover {
+    transform: scale(1.05);
+}
+
+.countdown {
+    text-align: center;
+    background: transparent;
+    border: 2px solid #B32100;
+    color: #B32100;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.faq {
+    background: transparent;
+    border: 2px solid #1A1A1A;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq h2 {
+    color: #EBEFAA;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-item button {
+    width: 100%;
+    background: #1A1A1A;
+    color: #CCCF9F;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.faq-item button:hover {
+    background: #3532EB;
+}
+
+.faq-item p {
+    margin-top: 5px;
+    display: none;
+    background: #000000;
+    color: #CCCF9F;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+ 
+.email-form {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: #1A1A1A;
+    border-radius: 5px;
+}
+
+
+.email-form h2{
+    color: #EBEFAA;
+    text-align: center;
+}
+
+.email-form p {
+    color: #EBEFAA;
+    text-align: center;
+}
+
+.email-form input[type="email"] {
+    background-color: black;
+    color: #CCCF9F;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.email-form input[type="submit"] {
+    background-color:  #B32100;
+    color: #000000;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    background: transparent;
+    padding: 20px 0;
+    border-top: 2px solid #B32100;
+    color: #EBEFAA;
+}

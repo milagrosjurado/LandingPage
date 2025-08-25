@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legendary MotorSport</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manufacturing+Consent&family=Oswald:wght@200..700&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <header>
+        <h1>Legendary MotorSport</h1>
+        <p>Más que autos, leyendas</p>
+    </header>
+
+    <main>
+         <div class="countdown" id="countdown">
+                ¡Preparate para los nuevos ingresos!<span id="countdown-timer"> Cargando...</span>
+            </div>
+        </div>
+        <div class="banner" id="banner">
+            <picture>
+        <source srcset="NUEVOS INGRESOS Mobile.png" media="(min-width: 768px)">
+        <img src="NUEVOS INGRESOS.png" alt="¡Nuevos ingresos para este 2025!">
+            </picture>
+
+        <div class="email-form">
+            <h2>¡Sé el primero en conocer nuestros nuevos modelos!</h2>
+            <p>Suscríbete y recibe promociones exclusivas directamente en tu correo electrónico</p>
+            <form action="https://app.brevo.com/form-submit" method="POST" target="_blank">
+                <input type="email" name="EMAIL" placeholder="Ingresá tu correo electrónico" required>
+                <input type="submit" value="Suscribirse">
+            </form>
+        </div>
+
+        <div class="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <button onclick="toggleFAQ(this)">¿Puedo reservar un auto en línea?</button>
+                <p>¡Si! A través de nuestra web podés reservar tu auto con una seña y retirarlo en nuestra concesionaria.</p>
+            </div>
+            
+            <div class="faq-item">
+                <button onclick="toggleFAQ(this)"> ¿Qué documentación necesito para comprar un vehículo en línea?</button>
+                <p>¡Para comprar un vehículo en línea solo necesitás la siguiente documentación!<br>
+                    - Documento de identidad (DNI o Pasaporte) VIGENTE.<br>
+                    - Comprobante de domicilio.<br>
+                    - Recibo de sueldo o comprobante de ingresos.<br>
+                    Con esos documentos podrás completar tu compra de manera online.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <button onclick="toggleFAQ(this)">¿Realizan entregas a domicilio?</button>
+                <p>¡Por supuesto! Podemos coordinar la entrega directamente a tu domicilio o la sucursal más cercana.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Legendary Motorsport.<br>
+        ROCKSTAR
+    </footer>
+
+    <script src="landing.js"></script>
+
+</body>
+</html>
